@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig(({ mode }) => ({
-  base: mode === "development" ? "/" : "/SMART_FARMING/", // ✅ GitHub Pages repo name
+  base: mode === "development" ? "/" : "/SMART_FARMING/",
   server: {
     host: "::",
     port: 8080,
